@@ -7,8 +7,8 @@ const createBoard = (rows, columns) => {
         .map((_, column) => {
           return {
             row,
-            columns,
-            openend: false,
+            column,
+            opened: false,
             flagged: false,
             mined: false,
             exploded: false,
@@ -80,7 +80,6 @@ const openField = (board, row, column) => {
       getNeighbors(board, row, column).forEach((n) =>
         openField(board, n.row, n.column)
       );
-      s;
     } else {
       const neighbors = getNeighbors(board, row, column);
       field.nearMines = neighbors.filter((n) => n.mined).length;
@@ -92,7 +91,7 @@ const fields = (board) => [].concat(...board);
 const hadExplosion = (board) =>
   fields(board).filter((field) => field.exploded).length > 0;
 const pending = (field) =>
-  (field.mined && !field.flagged) || (!field.mined && !field.openend);
+  (field.mined && !field.flagged) || (!field.mined && !field.opened);
 const wonGame = (board) => fields(board).filter(pending).length === 0;
 const showMines = (board) =>
   fields(board)
