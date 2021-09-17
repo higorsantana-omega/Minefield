@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="550px" height="400px"
+xml:space="preserve">
+<filter id="filter3" x="-0.589048" y="-0.589048" width="2.3581" height="2.3581" >
+<feComponentTransfer in="SourceGraphic">
+	<feFuncR type="linear" slope="0"/>
+	<feFuncG type="linear" slope="0"/>
+	<feFuncB type="linear" slope="0"/>
+</feComponentTransfer>
+<feGaussianBlur stdDeviation="4 4" />
+<feComponentTransfer result="1">
+	<feFuncR type="linear" Ue="0" intercept="1"/>
+	<feFuncG type="linear" Ue="0" intercept="0"/>
+	<feFuncB type="linear" Ue="0" intercept="0"/>
+	<feFuncA type="linear" xh="0" slope="1"/>
+</feComponentTransfer>
+<feComposite result="2"  in="SourceGraphic" in2="1" operator="over"/>
+</filter>
+<g style="filter:url(#filter3);">
+<g id="PathID_1" transform="matrix(-2.57969, 2.25523e-007, 0, 2.57969, 354.7, 109.05)" opacity="1">
+<path style="fill:#FF4040;fill-opacity:1" d="M49.25 18.9Q50.5 22.3 50.8 25.7L44.35 25.7Q43.65 19.25 38.85 14.9Q34 10.5 27.45 10.5Q20.9 10.5 16.05 14.9Q11.25 19.25 10.55 25.7L4.1 25.7Q4.4 22 5.75 18.7L1.9 16.3L5 10.9L9.05 13Q10.8 10.8 13 9.05L10.95 5.15L16.35 2.05L18.7 5.75Q21.3 4.65 24.15 4.3L24.35 0L30.55 0L30.75 4.3Q33.75 4.7 36.25 5.8L38.5 2.25L43.9 5.35L41.95 9.1Q44.45 11.1 46 13.2L49.65 11.3L52.75 16.7L49.25 18.9M54.9 29.2Q54.2 40.05 46.3 47.5Q42.4 51.15 37.85 53Q33.05 54.95 27.45 54.95Q21.85 54.95 17.1 53Q12.5 51.15 8.6 47.5Q0.7 40.05 0 29.2L10.55 29.2Q11.25 35.65 16.05 40.05Q20.9 44.45 27.45 44.45Q34 44.45 38.85 40.05Q43.65 35.65 44.35 29.2L54.9 29.2M27.45 17.4Q31.6 17.4 34.55 20.35Q37.5 23.3 37.5 27.45Q37.5 31.6 34.55 34.55Q31.6 37.5 27.45 37.5Q23.3 37.5 20.35 34.55Q17.4 31.6 17.4 27.45Q17.4 23.3 20.35 20.35Q23.3 17.4 27.45 17.4" />
+</g>
+<g id="PathID_2" transform="matrix(-2.57969, 2.25523e-007, 0, 2.57969, 354.7, 109.05)" opacity="1">
+</g>
+</g>
+<g id="PathID_3" transform="matrix(2.07279, 0, 0, 2.07279, 226.1, 123.1)" opacity="1">
+<path style="fill:#000000;fill-opacity:1" d="M49.25 18.9Q50.5 22.3 50.8 25.7L44.35 25.7Q43.65 19.25 38.85 14.9Q34 10.5 27.45 10.5Q20.9 10.5 16.05 14.9Q11.25 19.25 10.55 25.7L4.1 25.7Q4.4 22 5.75 18.7L1.9 16.3L5 10.9L9.05 13Q10.8 10.8 13 9.05L10.95 5.15L16.35 2.05L18.7 5.75Q21.3 4.65 24.15 4.3L24.35 0L30.55 0L30.75 4.3Q33.75 4.7 36.25 5.8L38.5 2.25L43.9 5.35L41.95 9.1Q44.45 11.1 46 13.2L49.65 11.3L52.75 16.7L49.25 18.9M54.9 29.2Q54.2 40.05 46.3 47.5Q42.4 51.15 37.85 53Q33.05 54.95 27.45 54.95Q21.85 54.95 17.1 53Q12.5 51.15 8.6 47.5Q0.7 40.05 0 29.2L10.55 29.2Q11.25 35.65 16.05 40.05Q20.9 44.45 27.45 44.45Q34 44.45 38.85 40.05Q43.65 35.65 44.35 29.2L54.9 29.2M27.45 17.4Q31.6 17.4 34.55 20.35Q37.5 23.3 37.5 27.45Q37.5 31.6 34.55 34.55Q31.6 37.5 27.45 37.5Q23.3 37.5 20.35 34.55Q17.4 31.6 17.4 27.45Q17.4 23.3 20.35 20.35Q23.3 17.4 27.45 17.4" />
+</g>
+<g id="PathID_4" transform="matrix(2.07279, 0, 0, 2.07279, 226.1, 123.1)" opacity="1">
+<path style="fill:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke:#000000;stroke-opacity:1" d="M52.75 16.7L49.65 11.3L46 13.2Q44.45 11.1 41.95 9.1L43.9 5.35L38.5 2.25L36.25 5.8Q33.75 4.7 30.75 4.3L30.55 0L24.35 0L24.15 4.3Q21.3 4.65 18.7 5.75L16.35 2.05L10.95 5.15L13 9.05Q10.8 10.8 9.05 13L5 10.9L1.9 16.3L5.75 18.7Q4.4 22 4.1 25.7L10.55 25.7Q11.25 19.25 16.05 14.9Q20.9 10.5 27.45 10.5Q34 10.5 38.85 14.9Q43.65 19.25 44.35 25.7L50.8 25.7Q50.5 22.3 49.25 18.9L52.75 16.7z" />
+<path style="fill:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke:#000000;stroke-opacity:1" d="M44.35 29.2Q43.65 35.65 38.85 40.05Q34 44.45 27.45 44.45Q20.9 44.45 16.05 40.05Q11.25 35.65 10.55 29.2L0 29.2Q0.7 40.05 8.6 47.5Q12.5 51.15 17.1 53Q21.85 54.95 27.45 54.95Q33.05 54.95 37.85 53Q42.4 51.15 46.3 47.5Q54.2 40.05 54.9 29.2L44.35 29.2z" />
+<path style="fill:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3;stroke:#000000;stroke-opacity:1" d="M27.45 17.4Q31.6 17.4 34.55 20.35Q37.5 23.3 37.5 27.45Q37.5 31.6 34.55 34.55Q31.6 37.5 27.45 37.5Q23.3 37.5 20.35 34.55Q17.4 31.6 17.4 27.45Q17.4 23.3 20.35 20.35Q23.3 17.4 27.45 17.4z" />
+</g>
+</svg>
