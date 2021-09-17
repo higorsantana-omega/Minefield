@@ -1,7 +1,5 @@
-import { StatusBar } from "expo-status-bar";
 import React, { Component } from "react";
-import { StyleSheet, Text, View, Alert } from "react-native";
-import Field from "./src/components/Field";
+import { StyleSheet, View, Alert } from "react-native";
 import { params } from "./src/params";
 import MineField from "./src/components/MineField";
 import Header from "./src/components/Header";
