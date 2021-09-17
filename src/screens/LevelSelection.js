@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
   bgNormal: {
     backgroundColor: '#2765f7'
   },
-  bdHard: {
+  bgHard: {
     backgroundColor: '#F26337'
   }
 })
