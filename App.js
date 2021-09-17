@@ -4,6 +4,7 @@ import { StyleSheet, Text, View, Alert } from "react-native";
 import Field from "./src/components/Field";
 import { params } from "./src/params";
 import MineField from "./src/components/MineField";
+import Header from "./src/components/Header";
 import {
   createMinedBoard,
   cloneBoard,
@@ -12,6 +13,7 @@ import {
   showMines,
   wonGame,
   invertFlag,
+  flagsUsed,
 } from "./src/logicGame";
 
 export default class App extends Component {
@@ -69,10 +71,7 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>
-          Tamanho da grade: {params.getRowsAmount()} x{" "}
-          {params.getColumnsAmount()}
-        </Text>
+        <Header flagsLeft={this.minesAmount() - flagsUsed(this.state.board) } onNewGame={() => this.setState(this.createState())} />
         <View style={styles.board}>
           <MineField
             board={this.state.board}
